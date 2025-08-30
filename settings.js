@@ -6,13 +6,13 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "drakonis~gmEkUTyA#boR402Ry5RoHdYDRkICCAsWgO-cL6xQBCD03cyxCAp8",
     // add your Session Id make sure it starts with suho~
 
-    PREFIX: process.env.PREFIX || ".",
+    PREFIX: process.env.PREFIX || " ",
     // add your prefix for bot
 
-    BOT_NAME: process.env.BOT_NAME || "sᴜɴɢ-sᴜʜᴏ-ᴍᴅ",
+    BOT_NAME: process.env.BOT_NAME || "SHIRONE ARIAN ",
     // add bot name here for menu
 
     MODE: process.env.MODE || "public",
@@ -27,7 +27,7 @@ module.exports = {
     AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
     // make true or false status auto seen
 
-    AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
+    AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
     // make true if you want auto reply on status 
 
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
